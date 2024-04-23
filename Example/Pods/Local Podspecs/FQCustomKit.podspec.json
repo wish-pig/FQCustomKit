@@ -1,0 +1,27 @@
+{
+  "name": "FQCustomKit",
+  "version": "0.1.0",
+  "summary": "A short description of FQCustomKit.",
+  "description": "自定义的框架",
+  "homepage": "https://github.com/zj/FQCustomKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zj": "137071083@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zj/FQCustomKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "FQCustomKit/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
+}

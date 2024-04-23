@@ -1,9 +1,10 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'FQCustomKit_Example' do
   pod 'FQCustomKit', :path => '../'
+  pod 'SnapKit'
 
   target 'FQCustomKit_Tests' do
     inherit! :search_paths

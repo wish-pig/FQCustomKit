@@ -18,24 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    自定义的框架
                        DESC
 
   s.homepage         = 'https://github.com/zj/FQCustomKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zj' => '137071083' }
+  s.author           = { 'zj' => '137071083@qq.com' }
   s.source           = { :git => 'https://github.com/zj/FQCustomKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'FQCustomKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'FQCustomKit' => ['FQCustomKit/Assets/*.png']
   # }
-
+  s.dependency 'SnapKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
