@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FQCustomKit_Example' do
+  pod 'FQCustomKit', :path => '../'
+
+  target 'FQCustomKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
